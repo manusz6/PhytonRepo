@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExaltaV", "ExaltaV", "{1F1A13FF-F040-468F-AEC9-E164DF7445F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GitClone", "GitClone", "{223E9447-E8A6-4BEE-AF86-62A5709E6ECB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fivem", "fivem", "{96FD39A5-A6E3-4570-92DA-4DAB4C0A219F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ext", "ext", "{A5CE303E-A258-43CE-BF42-ECD808B97C7A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "symbol-upload", "ExaltaV\GitClone\fivem\ext\symbol-upload\symbol-upload.csproj", "{496E0F7B-1D43-458E-881D-FAB5922B8514}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "monitor", "monitor", "{69A3C0F1-C5B9-44A5-BBBC-3E5D1752DED6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FxMonitor", "ExaltaV\GitClone\fivem\ext\monitor\server\FxMonitor.csproj", "{419CF349-AC34-4062-BF8F-C53039C72509}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "webadmin", "webadmin", "{0FEB478A-53F4-4F88-BB8D-18801F903A93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FxWebAdmin", "ExaltaV\GitClone\fivem\ext\webadmin\server\FxWebAdmin.csproj", "{65147705-7CAB-4EA2-B694-F4537E62E88B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{496E0F7B-1D43-458E-881D-FAB5922B8514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{496E0F7B-1D43-458E-881D-FAB5922B8514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{496E0F7B-1D43-458E-881D-FAB5922B8514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{496E0F7B-1D43-458E-881D-FAB5922B8514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{419CF349-AC34-4062-BF8F-C53039C72509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{419CF349-AC34-4062-BF8F-C53039C72509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{419CF349-AC34-4062-BF8F-C53039C72509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{419CF349-AC34-4062-BF8F-C53039C72509}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65147705-7CAB-4EA2-B694-F4537E62E88B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65147705-7CAB-4EA2-B694-F4537E62E88B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65147705-7CAB-4EA2-B694-F4537E62E88B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65147705-7CAB-4EA2-B694-F4537E62E88B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{223E9447-E8A6-4BEE-AF86-62A5709E6ECB} = {1F1A13FF-F040-468F-AEC9-E164DF7445F4}
+		{96FD39A5-A6E3-4570-92DA-4DAB4C0A219F} = {223E9447-E8A6-4BEE-AF86-62A5709E6ECB}
+		{A5CE303E-A258-43CE-BF42-ECD808B97C7A} = {96FD39A5-A6E3-4570-92DA-4DAB4C0A219F}
+		{496E0F7B-1D43-458E-881D-FAB5922B8514} = {A5CE303E-A258-43CE-BF42-ECD808B97C7A}
+		{69A3C0F1-C5B9-44A5-BBBC-3E5D1752DED6} = {A5CE303E-A258-43CE-BF42-ECD808B97C7A}
+		{419CF349-AC34-4062-BF8F-C53039C72509} = {69A3C0F1-C5B9-44A5-BBBC-3E5D1752DED6}
+		{0FEB478A-53F4-4F88-BB8D-18801F903A93} = {A5CE303E-A258-43CE-BF42-ECD808B97C7A}
+		{65147705-7CAB-4EA2-B694-F4537E62E88B} = {0FEB478A-53F4-4F88-BB8D-18801F903A93}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8655023E-B160-4F87-92B7-F706209E699A}
+	EndGlobalSection
+EndGlobal
